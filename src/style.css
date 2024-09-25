@@ -1,0 +1,191 @@
+.header {
+    h1 {
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 40px;
+        font-weight: 400;
+        line-height: 50px;
+    }
+}
+
+.navigation {
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    ul li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+
+    ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+}
+
+.welcome-section {
+    text-align: center;
+    width: 70%;
+    height: 700px;
+    background-image: url('../pictures/welcome.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    align-items: center;
+
+    h2 {
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 68px;
+        font-weight: 400;
+        margin: 20px;
+        padding-top: 200px;
+        line-height: 80px;
+    }
+
+    h3 {
+        font-family: 'Lora', serif;
+        font-size: 20px;
+        font-weight: 400;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        line-height: 25px;
+    }
+
+    .welcome-to-blog-button {
+        font-family: 'Lora', serif;
+        font-size: 20px;
+        font-weight: 400;
+        color: white;
+        background-color: #F51919;
+        border: none;
+        margin-top: 40px;
+        padding: 5px 20px;
+        line-height: 25px;
+    }
+
+    .welcome-to-blog-button:hover {
+        background-color: #ff6666;
+    }
+}
+
+.posts-section {
+    h2 {
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        color: #7D8637;
+        line-height: 50px;
+    }
+}
+
+.post-item {
+    h3 {
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        color: #7D8637;
+        line-height: 25px;
+    }
+
+    p {
+        font-family: 'Lora', serif;
+        font-size: 10px;
+        font-weight: 400;
+        color: #9095A1;
+        line-height: 12px;
+    }
+
+    img {
+        width: 165px;
+        height: 126px;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .to-post-button {
+        font-family: 'Lora', serif;
+        font-size: 10px;
+        font-weight: 400;
+        color: #7D8637;
+        background-color: white;
+        border-color: #7D8637;
+        border-radius: 4px;
+        line-height: 12px;
+    }
+
+    .to-post-button:hover {
+        background-color: #fff5e6;
+    }
+
+}
+
+.goods-section {
+    h3 {
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+        color: #7D8637;
+        line-height: 50px;
+    }
+
+    h4 {
+        font-family: 'Lora', serif;
+        font-size: 28px;
+        font-weight: 400;
+        color: black;
+        line-height: 36px;
+    }
+}
+
+.to-goods-button {
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: #7D8637;
+    border: none;
+    padding: 10px 20px;
+    line-height: 25px;
+}
+
+.to-goods-button:hover {
+    background-color: #808a57;
+}
+
+.subscribe-section {
+    text-align: center;
+    width: 70%;
+    height: 200px;
+    background-image: url('../pictures/subscribe.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    align-items: center;
+
+    h3 {
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        color: white;
+        padding-top: 50px;
+        line-height: 25px;
+    }
+
+    h4 {
+        font-family: 'Alegreya Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        color: white;
+        line-height: 20px;
+    }
+}
+
+
