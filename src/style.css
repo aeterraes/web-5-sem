@@ -224,12 +224,6 @@
     }
 }
 
-body {
-    font-family: 'Alegreya Sans', sans-serif;
-    font-size: 20px;
-    background-color: #f0f0f0;
-}
-
 .shop-table {
     max-width: 800px;
     margin: 20px auto;
@@ -245,28 +239,27 @@ body {
     padding: 10px;
 }
 
-table {
+.shop-table {
     width: 100%;
     border-collapse: collapse;
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border: 1px solid white;
+    }
+
+    th {
+        background-color: #7D8637;
+        color: white;
+    }
 }
 
-th, td {
-    padding: 10px;
-    text-align: left;
-    border: 1px solid white;
-}
-
-th {
-    background-color: #7D8637;
-    color: white;
-}
-
-.even {
+.shop-table tr:nth-child(even) {
     background-color: #7D8637;
     color: #fff;
 }
 
-.odd {
+.shop-table tr:nth-child(odd) {
     background-color: #dfe8b9;
     color: #fff;
 }
@@ -276,4 +269,3 @@ th {
         font-size: 14px;
     }
 }
-
