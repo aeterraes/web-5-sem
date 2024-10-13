@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .header {
     display: flex;
     align-items: center;
@@ -17,30 +21,23 @@
     font-size: 14px;
     font-weight: 400;
     line-height: 20px;
-
-    ul {
-        display: flex;
-        list-style: none;
-        padding: 0;
-        margin: 0;
-    }
-
-    ul li {
-        display: inline-block;
-        margin-right: 20px;
-    }
-
-    ul li a {
-        text-decoration: none;
-        color: black;
-    }
-
+}
+.navigation a {
+    text-decoration: none;
+    color: black;
+}
+.navigation a:hover {
+    color: #7D8637;
+}
+.navigation a.active {
+    color: rgba(125, 134, 55, 0.9);
+    border-bottom: 2px solid rgba(125, 134, 55, 0.9);
 }
 
 .welcome-section {
     text-align: center;
     height: 700px;
-    background-image: url('../pictures/welcome.jpeg');
+    background-image: url('../../pictures/welcome.jpeg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -68,12 +65,15 @@
         font-family: 'Lora', serif;
         font-size: 20px;
         font-weight: 400;
-        color: white;
         background-color: #F51919;
         border: none;
         margin-top: 40px;
         padding: 5px 20px;
         line-height: 25px;
+    }
+    .welcome-to-blog-button a {
+        color: white;
+        text-decoration: none;
     }
 
     .welcome-to-blog-button:hover {
@@ -142,6 +142,10 @@
         line-height: 12px;
         padding: 3px 20px;
     }
+    .to-post-button a {
+        color: #7D8637;
+        text-decoration: none;
+    }
 
     .to-post-button:hover {
         background-color: #fff5e6;
@@ -192,15 +196,20 @@
         margin: 20px auto;
     }
 
+    .to-goods-button a {
+        color: white;
+        text-decoration: none;
+    };
+
     .to-goods-button:hover {
-        background-color: #808a57;
+        background-color: #5b6e2a;
     }
 }
 
 .subscribe-section {
     text-align: center;
     height: 200px;
-    background-image: url('../pictures/subscribe.jpeg');
+    background-image: url('../../pictures/subscribe.jpeg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -224,48 +233,11 @@
     }
 }
 
-.shop-table {
-    max-width: 800px;
-    margin: 20px auto;
-    border: 2px solid #7D8637;
-    border-radius: 2px;
-    overflow: hidden;
-}
-
-.shop-table-name {
+.footer-section {
     text-align: center;
-    background-color: #7D8637;
-    color: white;
-    padding: 10px;
-}
-
-.shop-table {
-    width: 100%;
-    border-collapse: collapse;
-    th, td {
-        padding: 10px;
-        text-align: left;
-        border: 1px solid white;
-    }
-
-    th {
-        background-color: #7D8637;
-        color: white;
-    }
-}
-
-.shop-table tr:nth-child(even) {
-    background-color: #7D8637;
-    color: #fff;
-}
-
-.shop-table tr:nth-child(odd) {
-    background-color: #dfe8b9;
-    color: #fff;
-}
-
-@media (max-width: 600px) {
-    table {
-        font-size: 14px;
-    }
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #7D8637;
+    background-color: #fff5e6;
 }
