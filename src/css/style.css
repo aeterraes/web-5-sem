@@ -34,10 +34,22 @@ html {
     border-bottom: 2px solid rgba(125, 134, 55, 0.9);
 }
 
+@media (max-width: 768px) {
+    .navigation {
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .navigation a {
+        padding: 10px 0;
+        display: block;
+    }
+}
+
 .welcome-section {
     text-align: center;
     height: 700px;
-    background-image: url('../../pictures/welcome.jpeg');
+    background-image: url('../images/welcome.jpeg');
     background-size: cover;
     background-position: center;
     color: white;
@@ -209,7 +221,7 @@ html {
 .subscribe-section {
     text-align: center;
     height: 200px;
-    background-image: url('../../pictures/subscribe.jpeg');
+    background-image: url('../images/subscribe.jpeg');
     background-size: cover;
     background-position: center;
     color: white;
