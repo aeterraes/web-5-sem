@@ -1,44 +1,12 @@
-.gallery-container {
+.swiper-slide {
     position: relative;
-    width: 100%;
-    max-width: 800px;
-    height: 500px;
     margin: 0 auto;
-    overflow: hidden;
     display: flex;
-    align-items: center;
-    justify-content: center;
     padding-top: 20px;
 }
 
 .gallery-image {
-    display: none;
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
-}
-
-.gallery-image.active {
-    display: block;
-}
-.button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-button {
-    background-color: #7D8637;
-    color: white;
-    border: none;
-    font-size: 20px;
-    padding: 10px;
-    flex: 1;
-    margin: 0 10px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-button:hover {
-    background-color: #5b6e2a;
 }
